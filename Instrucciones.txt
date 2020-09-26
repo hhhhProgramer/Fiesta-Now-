@@ -1,0 +1,32 @@
+Deben subir un archivo que contenga los siguientes apartados:
++ Presentación
+
+	- Nombre del proyecto
+
+	- Integrantes del equipo de desarrollo
+
++ Objetivo/Resumen
+
+	- Qué quiero solucionar, a quienes beneficiaría, si puede ser comercializado y cómo me monetizaría
+
++ Listado de actores
+
+	- Nombre
+
+	- Actividad que realiza
+
++ Lista de actividades/Funcionalidades/Requerimientos
+
++ por cada actividad
+
+	- Prosa/Caso de uso
+
+	- Cuándo se realiza
+
+	- Actor o actores que la realizan
+
+	- Datos de entrada
+
+	- Datos de salida
+
++ Diagrama de proceso
