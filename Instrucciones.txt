@@ -12,11 +12,19 @@ Deben subir un archivo que contenga los siguientes apartados:
 + Listado de actores
 
 	- Nombre
+		Usuario
+		Cliente
 
 	- Actividad que realiza
+		Usuario
+			Registra
+			Crud de eventos
+		Cliente 
+			Consulta
+			Vota
 
 + Lista de actividades/Funcionalidades/Requerimientos
-
+	
 + por cada actividad
 
 	- Prosa/Caso de uso
