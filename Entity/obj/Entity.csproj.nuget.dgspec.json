@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\MiProyecto\\Entity\\Entity.csproj": {}
+    "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\MiProyecto\\Entity\\Entity.csproj": {
+    "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\MiProyecto\\Entity\\Entity.csproj",
+        "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\MiProyecto\\Entity\\Entity.csproj",
+        "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\MiProyecto\\Entity\\obj\\",
+        "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\FiestaNow\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
