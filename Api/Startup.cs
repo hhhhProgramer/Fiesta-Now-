@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Domain.Interfaces;
-using Infrestructure.Infrestructure;
+using Infrestructure.Data;
 using Infrestructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,6 +14,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using FluentValidation.AspNetCore;
+using AutoMapper;
+using Application.Services;
+using Infrestructure.Filter;
+using Newtonsoft.Json;
 
 namespace Iterface
 {
@@ -29,13 +34,29 @@ namespace Iterface
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
 
-            services.AddDbContext<GetDanceNowContext>( options =>{
-                options.UseSqlServer(Configuration.GetConnectionString("[Connectionname]"));
+            services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddMvc().AddFluentValidation(options =>
+            {
+                options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
+
+            });
+
+
+            services.AddControllers(options =>
+            {
+                options.Filters.Add<GlobalExceptionFilter>();
             });
 
             services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
+            services.AddTransient<IAcademiaServices, AcademiaServices>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddDbContext<GetDanceNowContext>(options =>
+           {
+               options.UseSqlServer(Configuration.GetConnectionString("dbstring"));
+           });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

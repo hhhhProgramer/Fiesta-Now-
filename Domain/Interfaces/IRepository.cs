@@ -10,9 +10,9 @@ namespace Domain.Interfaces
     {
         Task Add(T entity);
         Task Delete(int id);
-        Task<IEnumerable<T>> FindByCondition(Expression<Func<T, bool>> expression);
-        Task<IEnumerable<T>> GetAll();
+        IEnumerable<T> FindByCondition(Expression<Func<T, bool>> expression);
+        IEnumerable<T> GetAll();
         Task<T> GetById(int id);
-        Task Update(T entity);
+        void Update(T entity);
     }
 }

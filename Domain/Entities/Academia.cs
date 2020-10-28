@@ -10,8 +10,8 @@ namespace Entity
         public string Nombre { get; set; }
         public string Numero { get; set; }
         public string Descripcion { get; set; }
-        public int Longitud { get; set; }
-        public int Latitud { get; set; }
+        public double Longitud { get; set; }
+        public double Latitud { get; set; }
         public string Logo { get; set; }
 
 
