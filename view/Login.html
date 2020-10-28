@@ -15,6 +15,49 @@
         body {
             background-color: #f08621;
         }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            border-radius: 2em;
+            transition: 0.3s;
+            width: 40%;
+            }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+            .ClaseBoton:not(:hover){
+            cursor: pointer;
+            border-radius: 5em;
+            color: #fff;
+            background: 
+            linear-gradient(to right, #000000, #333333 );
+            border: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13px;
+            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        }
+
+        .ClaseBoton:hover{
+            cursor: pointer;
+            border-radius: 5em;
+            color: #fff;
+            background: 
+            linear-gradient(to right, #000000, #333333 );
+            border: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13px;
+            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        }
+
     </style>
 </head>
 
@@ -57,10 +100,10 @@
                             <input type="password" class="form-control" placeholder="Contraseña" required>
                         </div>
                         <div class="col mt-3">
-                            <button type="submit" class="btn btn-dark">Iniciar sesión</button>
+                            <button type="submit" class="ClaseBoton">Iniciar sesión</button>
                         </div>
                         <div class="col mt-3">
-                            <a href="Register.html" class="btn btn-dark">Crear cuenta nueva</a>
+                            <a href="Register.html" class="ClaseBoton">Crear cuenta nueva</a>
                         </div>
                     </form>
                 </div>
@@ -68,8 +111,8 @@
             <div class="col-md-8 banner-sec">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#car.ouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">

@@ -44,6 +44,18 @@
             text-transform: uppercase;
             transition: transform 80ms ease-in;
         }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            border-radius: 2em;
+            transition: 0.3s;
+            width: 40%;
+            }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
     </style>
 </head>
 
@@ -75,20 +87,20 @@
             <form>
                 <div class="row mt-3">
                     <div class="col">
-                        <label>Nombre</label>
+                        <h6><label>Nombre</label></h6>
                         <input type="text" class="form-control" placeholder="Nombre">
                     </div>
                     <div class="col">
-                        <label>Apellido</label>
+                        <h6><label>Apellido</label></h6>
                         <input type="text" class="form-control" placeholder="Apellidos">
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <label>Correo electrónico</label>
+                    <h6><label>Correo electrónico</label></h6>
                     <input type="text" class="form-control" placeholder="Correo electrónico"> 
                 </div>
                 <div class="row mt-3">
-                    <label>Contraseña nueva</label>
+                    <h6><label>Contraseña nueva</label></h6>
                     <input type="password" class="form-control" placeholder="Contraseña nueva">
                 </div>
                 <div class="row mt-3">
