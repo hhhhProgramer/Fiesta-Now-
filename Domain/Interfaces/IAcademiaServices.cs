@@ -8,5 +8,6 @@ namespace Domain.Interfaces
     {
          IEnumerable<Academia> GetAcademias(); 
          Task UpdateAcademia(Academia academia);
+         Task AddAcademia(Academia academia);
     }
 }

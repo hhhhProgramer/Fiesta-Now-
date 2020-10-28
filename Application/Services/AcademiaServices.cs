@@ -37,5 +37,10 @@ namespace Application.Services
             await _unitOfWork.AcademiasRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
         }
+
+        public async Task AddAcademia(Academia academia)
+        {
+            await _unitOfWork.AcademiasRepository.Add(academia);
+        }
     }
 }
