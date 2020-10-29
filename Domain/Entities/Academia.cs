@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entity
 {
-    public class Academia : BaseEntity
+    public partial class Academia : BaseEntity
     {
 
         public string Nombre { get; set; }

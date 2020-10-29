@@ -27,11 +27,6 @@ namespace Application.Services
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public async Task AddAnimal(Academia academia)
-        {
-            await _unitOfWork.AcademiasRepository.Add(academia);
-        }
-
         public async Task DeleteAnimal(int id)
         {
             await _unitOfWork.AcademiasRepository.Delete(id);
@@ -41,6 +36,7 @@ namespace Application.Services
         public async Task AddAcademia(Academia academia)
         {
             await _unitOfWork.AcademiasRepository.Add(academia);
+            await _unitOfWork.SaveChangesAsync();
         }
     }
 }
