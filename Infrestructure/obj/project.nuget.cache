@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yeQ6CBQo3SNzCROz31n+HiHq4GJkXilp89Q/E/tmo8w665tN4vHQwB1PV2SvmROyU4nEnUK13qfgzyeuwBFpnQ==",
+  "dgSpecHash": "QLvgKvH7VBIR6A4DF1LPbc0+3TykQUmjijSVE8RONBTzO0i8Hstzf0NugpdLYSvuAlv9UdL/8siEymAKf8nMJw==",
   "success": true,
   "projectFilePath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj",
   "expectedPackageFiles": [
+    "/home/hhhh/.nuget/packages/fluentvalidation/9.2.0/fluentvalidation.9.2.0.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/fluentvalidation.aspnetcore/9.2.0/fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/fluentvalidation.dependencyinjectionextensions/9.2.0/fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
     "/home/hhhh/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/hhhh/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/home/hhhh/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

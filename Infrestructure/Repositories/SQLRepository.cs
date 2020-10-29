@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Domain.Interfaces;
 using Entity;
-using Infrestructure.Infrestructure;
+using Infrestructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrestructure.Repositories
@@ -25,8 +25,7 @@ namespace Infrestructure.Repositories
         {
             if (entity == null) throw new ArgumentNullException("Entity");
 
-            _entity.Add(entity);
-            await _context.SaveChangesAsync();
+            await _entity.AddAsync(entity);
         }
 
         public async Task Delete(int id)
@@ -36,17 +35,16 @@ namespace Infrestructure.Repositories
             var entity = await GetById(id);
 
             _entity.Remove(entity);
-            await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<T>> FindByCondition(Expression<Func<T, bool>> expression)
+        public IEnumerable<T> FindByCondition(Expression<Func<T, bool>> expression)
         {
-            return await _entity.Where(expression).AsNoTracking().ToListAsync();
+            return _entity.Where(expression).AsNoTracking().AsEnumerable();
         }
 
-        public async Task<IEnumerable<T>> GetAll()
+        public IEnumerable<T> GetAll()
         {
-            return await _entity.AsNoTracking().ToListAsync();
+            return _entity.AsNoTracking().AsEnumerable();
         }
 
         public async Task<T> GetById(int id)
@@ -54,13 +52,11 @@ namespace Infrestructure.Repositories
             return await _entity.AsNoTracking().SingleOrDefaultAsync(entity => entity.Id == id);
         }
 
-        public async Task Update(T entity)
+        public void Update(T entity)
         {
             if (entity == null) throw new ArgumentNullException("Entity");
             if (entity.Id <= 0) throw new ArgumentNullException("Entity");
-            
             _entity.Update(entity);
-            await _context.SaveChangesAsync();
         }
     }
 }
