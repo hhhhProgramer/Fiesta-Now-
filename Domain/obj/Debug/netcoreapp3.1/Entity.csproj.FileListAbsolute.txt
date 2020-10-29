@@ -1,0 +1,9 @@
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/bin/Debug/netcoreapp3.1/Entity.deps.json
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/bin/Debug/netcoreapp3.1/Entity.dll
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/bin/Debug/netcoreapp3.1/Entity.pdb
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/obj/Debug/netcoreapp3.1/Entity.csprojAssemblyReference.cache
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/obj/Debug/netcoreapp3.1/Entity.AssemblyInfoInputs.cache
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/obj/Debug/netcoreapp3.1/Entity.AssemblyInfo.cs
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/obj/Debug/netcoreapp3.1/Entity.csproj.CoreCompileInputs.cache
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/obj/Debug/netcoreapp3.1/Entity.dll
+/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Entity/obj/Debug/netcoreapp3.1/Entity.pdb
