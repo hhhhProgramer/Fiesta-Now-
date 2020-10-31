@@ -1,7 +1,8 @@
 namespace  Domain.DTOs
 {
-    public partial class CuentaRequestDto
+    public class CuentaRequestDto
     {
+        public int Id { get; set; }
         public string correo { get; set; }
         public string password { get; set; }
     }

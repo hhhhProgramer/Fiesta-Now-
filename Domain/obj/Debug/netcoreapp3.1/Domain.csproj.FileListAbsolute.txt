@@ -7,3 +7,12 @@
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.dll
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

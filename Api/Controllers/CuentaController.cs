@@ -15,7 +15,6 @@ namespace Api.Controllers
     {
         private readonly ICuentaServices _service;
         private readonly IMapper _mapper;
-
         public CuentaController(ICuentaServices service, IMapper mapper)
         {
             this._service = service;
@@ -38,9 +37,9 @@ namespace Api.Controllers
         public IActionResult Get()
         {
             var Cuentas = _service.GetCuentas();
-            var cuentasDto = _mapper.Map<IEnumerable<Cuenta>, IEnumerable<CuentaResponseDto>>(Cuentas);
+            var animalsDto = _mapper.Map<IEnumerable<Cuenta>, IEnumerable<CuentaResponseDto>>(Cuentas);
 
-            var response = new ApiResponse<IEnumerable<CuentaResponseDto>>(cuentasDto);
+            var response = new ApiResponse<IEnumerable<CuentaResponseDto>>(animalsDto);
             return Ok(response);
         }
 
