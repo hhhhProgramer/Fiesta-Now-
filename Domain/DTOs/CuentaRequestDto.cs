@@ -1,6 +1,6 @@
-namespace  Doamin.DTOs
+namespace  Domain.DTOs
 {
-    public class CuentaRequestDto
+    public partial class CuentaRequestDto
     {
         public string correo { get; set; }
         public string password { get; set; }

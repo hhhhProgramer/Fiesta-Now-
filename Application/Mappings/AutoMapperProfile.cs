@@ -12,7 +12,10 @@ namespace Infrestructure.Mappings
             CreateMap<Academia,AcademiaResponseDto>();
             CreateMap<AcademiaRequestDto,Academia>();
 
-            
+            CreateMap<Cuenta,CuentaRequestDto>();
+            CreateMap<Cuenta,CuentaResponseDto>();
+            CreateMap<CuentaRequestDto,Cuenta>();
+
         }
     }
 }
