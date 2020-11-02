@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj": {}
+    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {}
   },
   "projects": {
-    "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/Domain.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/Domain.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/Domain.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj",
         "projectName": "Infrestructure",
-        "projectPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/Domain.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/Domain.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj"
               }
             }
           }

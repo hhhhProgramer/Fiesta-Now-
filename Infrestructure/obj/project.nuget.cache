@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QLvgKvH7VBIR6A4DF1LPbc0+3TykQUmjijSVE8RONBTzO0i8Hstzf0NugpdLYSvuAlv9UdL/8siEymAKf8nMJw==",
+  "dgSpecHash": "cP5Y/JZILgnGQdUJbJvs4CAj4jIBJMucMvuBYEvvomQhIzAykfgx129ehzcMuljMZFSa7ITkkGskYEMd/wX/RA==",
   "success": true,
-  "projectFilePath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj",
+  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj",
   "expectedPackageFiles": [
     "/home/hhhh/.nuget/packages/fluentvalidation/9.2.0/fluentvalidation.9.2.0.nupkg.sha512",
     "/home/hhhh/.nuget/packages/fluentvalidation.aspnetcore/9.2.0/fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",

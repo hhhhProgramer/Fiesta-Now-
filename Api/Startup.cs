@@ -46,7 +46,9 @@ namespace Iterface
                 options.AddPolicy("Testing",
                     builder =>
                     {
-                        builder.WithOrigins("*");
+                        builder.WithOrigins("*")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
                     });
             });
 
