@@ -1,8 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {}
   },
   "projects": {
@@ -14,46 +12,14 @@
         "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
         "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/",
-=======
-    "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj": {}
-  },
-  "projects": {
-    "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\obj\\",
->>>>>>> a9a7e65fd07b15cb8af89b7b35bbb6dfdd5cdb0f
-=======
-    "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj": {}
-  },
-  "projects": {
-    "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\obj\\",
->>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/hhhh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,12 +50,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -98,57 +62,21 @@
         "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
         "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/obj/",
-=======
-    "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj",
-        "projectName": "Infrestructure",
-        "projectPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\obj\\",
->>>>>>> a9a7e65fd07b15cb8af89b7b35bbb6dfdd5cdb0f
-=======
-    "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj",
-        "projectName": "Infrestructure",
-        "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\obj\\",
->>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/hhhh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
-<<<<<<< HEAD
               "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj": {
                 "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj"
-=======
-              "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj"
->>>>>>> a9a7e65fd07b15cb8af89b7b35bbb6dfdd5cdb0f
-=======
-              "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj"
->>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
               }
             }
           }
@@ -194,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,20 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
   "dgSpecHash": "x5ijxOcP8ySbcIUoHF8ZoH5IWtSl3QRHR/LFqIvhgM37op7qQMc73mVgOg4dEoKU7g7GKSW1lml0xWZ6y3o6Mw==",
   "success": true,
   "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
-=======
-  "dgSpecHash": "uHE5CDD0L32VlATQiqK1isDLlaHb1pfCxCDJ7XRcbMUQduBcniM4jbZ0dQhbHsdpBTFOHmObrzNglUQLggjBpg==",
-  "success": true,
-  "projectFilePath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
->>>>>>> a9a7e65fd07b15cb8af89b7b35bbb6dfdd5cdb0f
-=======
-  "dgSpecHash": "q/GrjnRzAjFBTpeKeZEbi5S1g9sqH6CEShW6DLNz8/eEuVST611CteZ4amph4OitoS1YEdE3x4SkljXcWLJb4A==",
-  "success": true,
-  "projectFilePath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
->>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

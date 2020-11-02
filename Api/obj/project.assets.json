@@ -6071,45 +6071,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/hhhh/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/Api.csproj",
       "projectName": "Api",
       "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/Api.csproj",
       "packagesPath": "/home/hhhh/.nuget/packages/",
       "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/obj/",
-=======
-      "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Api\\Api.csproj",
-      "projectName": "Api",
-      "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Api\\obj\\",
->>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/hhhh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
             "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/Application.csproj": {
               "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/Application.csproj"
             },
@@ -6118,16 +6102,6 @@
             },
             "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {
               "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj"
-=======
-            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Application\\Application.csproj": {
-              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Application\\Application.csproj"
-            },
-            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj"
-            },
-            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj": {
-              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj"
->>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
             }
           }
         }
@@ -6188,8 +6162,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
