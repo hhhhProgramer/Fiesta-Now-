@@ -7,3 +7,12 @@
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.dll
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
