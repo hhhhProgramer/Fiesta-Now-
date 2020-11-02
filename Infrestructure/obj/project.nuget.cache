@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "cP5Y/JZILgnGQdUJbJvs4CAj4jIBJMucMvuBYEvvomQhIzAykfgx129ehzcMuljMZFSa7ITkkGskYEMd/wX/RA==",
   "success": true,
   "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj",
@@ -9,6 +10,11 @@
   "success": true,
   "projectFilePath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj",
 >>>>>>> a9a7e65fd07b15cb8af89b7b35bbb6dfdd5cdb0f
+=======
+  "dgSpecHash": "fRn5amlDYC7hcTtibCX3rnjpYvAsb5jOpGy8wzb1m1pe5gpiEYNn03Im/2P05Iaz/UsV5x7n5GWZ2wtDsux3mg==",
+  "success": true,
+  "projectFilePath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj",
+>>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
