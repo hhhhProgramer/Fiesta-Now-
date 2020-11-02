@@ -15,6 +15,7 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
       "projectName": "Domain",
       "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
@@ -27,6 +28,13 @@
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
       "outputPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\obj\\",
 >>>>>>> a9a7e65fd07b15cb8af89b7b35bbb6dfdd5cdb0f
+=======
+      "projectUniqueName": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+      "outputPath": "d:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\obj\\",
+>>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -59,6 +59,7 @@ namespace Iterface
 
             services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
             services.AddTransient<IAcademiaServices, AcademiaServices>();
+            services.AddTransient<ICuentaServices, CuentaServices>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<GetDanceNowContext>(options =>
            {
