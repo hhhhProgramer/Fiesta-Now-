@@ -6071,37 +6071,44 @@
     ]
   },
   "packageFolders": {
-    "/home/hhhh/.nuget/packages/": {}
+    "C:\\Users\\carlo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/Api.csproj",
+      "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/Api.csproj",
-      "packagesPath": "/home/hhhh/.nuget/packages/",
-      "outputPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/obj/",
+      "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj",
+      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+      "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/hhhh/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Application/Application.csproj": {
-              "projectPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Application/Application.csproj"
+            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\Application.csproj": {
+              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\Application.csproj"
             },
-            "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/Domain.csproj": {
-              "projectPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Domain/Domain.csproj"
+            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj"
             },
-            "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj": {
-              "projectPath": "/home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/Infrestructure.csproj"
+            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj": {
+              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj"
             }
           }
         }
@@ -6162,7 +6169,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
