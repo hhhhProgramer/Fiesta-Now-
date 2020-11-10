@@ -4,14 +4,16 @@ using Infrestructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Infrestructure.Migrations
 {
     [DbContext(typeof(GetDanceNowContext))]
-    partial class GetDanceNowContextModelSnapshot : ModelSnapshot
+    [Migration("20201107044714_dir")]
+    partial class dir
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -72,9 +74,6 @@ namespace Infrestructure.Migrations
 
                     b.Property<int>("CodigoBaileID")
                         .HasColumnType("int");
-
-                    b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -190,7 +189,7 @@ namespace Infrestructure.Migrations
                     b.Property<DateTime>("Cierre")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ClaseId")
+                    b.Property<int?>("ClaseId")
                         .HasColumnType("int");
 
                     b.Property<string>("Dia")
@@ -284,11 +283,9 @@ namespace Infrestructure.Migrations
 
             modelBuilder.Entity("Entity.Horario", b =>
                 {
-                    b.HasOne("Entity.Clase", "Clase")
+                    b.HasOne("Entity.Clase", null)
                         .WithMany("Horarios")
-                        .HasForeignKey("ClaseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ClaseId");
                 });
 
             modelBuilder.Entity("Entity.Suscripcion", b =>

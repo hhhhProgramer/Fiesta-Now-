@@ -46,5 +46,7 @@ namespace Api.Controllers
             var response = new ApiResponse<IEnumerable<AcademiaResponseDto>>(animalsDto);
             return Ok(response);
         }
+
+        
     }
 }

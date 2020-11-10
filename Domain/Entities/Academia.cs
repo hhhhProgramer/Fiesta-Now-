@@ -13,7 +13,7 @@ namespace Entity
         public double Longitud { get; set; }
         public double Latitud { get; set; }
         public string Logo { get; set; }
-
+        public string Direction { get; set; }
 
         public int CuentaID { get; set; }
         public Cuenta cuenta { get; set; }

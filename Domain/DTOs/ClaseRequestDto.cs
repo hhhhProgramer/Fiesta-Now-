@@ -1,15 +1,13 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using Entity;
 
-namespace Entity
+namespace Domain.DTOs
 {
-    public class Clase : BaseEntity
+    public class ClaseRequestDto
     {
-        public string Nombre{ get; set; }
+        public string Nombre { get; set; }
         public int AlumnosMax { get; set; }
         public int CodigoBaileID { get; set; }
-        public CodigoBaile CodigoBaile { get; set; }
         public ICollection<Horario> Horarios { get; set; }
     }
 }

@@ -36,17 +36,19 @@ namespace Iterface
         {
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             //services.AddControllers();
-            
+
             services.AddMvc().AddFluentValidation(options =>
             {
                 options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
 
             });
-            services.AddCors(options =>{
+            services.AddCors(options =>
+            {
                 options.AddPolicy("Testing",
                     builder =>
                     {
                         builder.WithOrigins("*")
+                        .AllowAnyOrigin()
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                     });
@@ -60,6 +62,8 @@ namespace Iterface
             services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
             services.AddTransient<IAcademiaServices, AcademiaServices>();
             services.AddTransient<ICuentaServices, CuentaServices>();
+            services.AddTransient<IHorarioServices, HorarioServices>();
+            services.AddTransient<IClaseServices, ClasesServices>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<GetDanceNowContext>(options =>
            {
@@ -70,8 +74,8 @@ namespace Iterface
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            
-            
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

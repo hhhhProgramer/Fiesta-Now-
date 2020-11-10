@@ -4,7 +4,7 @@ using Entity;
 
 namespace Domain.Interfaces
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork
     {
         public IRepository<Academia> AcademiasRepository { get; }
         public IRepository<Clase_Suscripciones> ClasesSuscripcionesRepository { get; }
@@ -14,6 +14,7 @@ namespace Domain.Interfaces
         public IRepository<Estudiante> EstudiantesRepository { get; }
         public IRepository<Horario> HorariosRepository { get; }
         public IRepository<Suscripcion> SuscripcionesRepository { get; }
+        
 
         void SaveChanges();
         Task SaveChangesAsync();
