@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "l3SkSELqy1OyNHGcASn1PFfAE94sD0hpmNmuBBKQCb+uqxJ2lSK2c5SXKZ1NvF3rhS/8WfE/pLXBT45R7UXzzQ==",
+  "dgSpecHash": "zVnPECnhgFnNmVTN55+3TZkRavV70QSpqidb/W2oskC5T8KPkNFadFmrDCxR7AW+nqo1mNn4uPqGQD5EvEL/jw==",
   "success": true,
-  "projectFilePath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
+  "projectFilePath": "/home/hhhh/Documentos/Branch-Carlos/Domain/Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché /home/hhhh/Documentos/Branch-Carlos/Domain/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

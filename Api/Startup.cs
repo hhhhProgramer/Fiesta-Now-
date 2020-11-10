@@ -36,11 +36,22 @@ namespace Iterface
         {
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             //services.AddControllers();
-            
+
             services.AddMvc().AddFluentValidation(options =>
             {
                 options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
 
+            });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Testing",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                    });
             });
 
             services.AddControllers(options =>
@@ -51,6 +62,9 @@ namespace Iterface
             services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
             services.AddTransient<IAcademiaServices, AcademiaServices>();
             services.AddTransient<IEstudianteServices, EstudianteServices>();
+            services.AddTransient<ICuentaServices, CuentaServices>();
+            services.AddTransient<IHorarioServices, HorarioServices>();
+            services.AddTransient<IClaseServices, ClasesServices>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<GetDanceNowContext>(options =>
            {
@@ -61,6 +75,8 @@ namespace Iterface
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -69,9 +85,8 @@ namespace Iterface
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors();
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

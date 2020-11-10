@@ -5,10 +5,13 @@ using AutoMapper;
 using Domain.DTOs;
 using Domain.Interfaces;
 using Entity;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+
 
 namespace Api.Controllers
 {
+    [EnableCors("Testing")]
     [Route("api/[controller]")]
     [ApiController]
     public class AcademiaController : ControllerBase
@@ -44,5 +47,6 @@ namespace Api.Controllers
             return Ok(response);
         }
 
+        
     }
 }

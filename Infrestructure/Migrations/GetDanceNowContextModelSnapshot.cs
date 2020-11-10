@@ -32,6 +32,9 @@ namespace Infrestructure.Migrations
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Direction")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("Latitud")
                         .HasColumnType("float");
 
@@ -69,6 +72,9 @@ namespace Infrestructure.Migrations
 
                     b.Property<int>("CodigoBaileID")
                         .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -184,7 +190,7 @@ namespace Infrestructure.Migrations
                     b.Property<DateTime>("Cierre")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("ClaseId")
+                    b.Property<int>("ClaseId")
                         .HasColumnType("int");
 
                     b.Property<string>("Dia")
@@ -278,9 +284,11 @@ namespace Infrestructure.Migrations
 
             modelBuilder.Entity("Entity.Horario", b =>
                 {
-                    b.HasOne("Entity.Clase", null)
+                    b.HasOne("Entity.Clase", "Clase")
                         .WithMany("Horarios")
-                        .HasForeignKey("ClaseId");
+                        .HasForeignKey("ClaseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Entity.Suscripcion", b =>
