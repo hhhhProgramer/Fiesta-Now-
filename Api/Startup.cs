@@ -48,7 +48,6 @@ namespace Iterface
                     builder =>
                     {
                         builder.WithOrigins("*")
-                        .AllowAnyOrigin()
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                     });

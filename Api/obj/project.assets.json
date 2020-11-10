@@ -6165,13 +6165,5 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché /home/hhhh/Documentos/Branch-Carlos/Api/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
