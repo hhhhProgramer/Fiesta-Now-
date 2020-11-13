@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5ijxOcP8ySbcIUoHF8ZoH5IWtSl3QRHR/LFqIvhgM37op7qQMc73mVgOg4dEoKU7g7GKSW1lml0xWZ6y3o6Mw==",
+  "dgSpecHash": "M0VmUIXGI9z+M4Jh375ViMO7m5JBch5zpKXGzDguR3OZWfQzXnPssSXKnhwPS3kfyFB1Jy2vJPE8QQBD9aLTfw==",
   "success": true,
   "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

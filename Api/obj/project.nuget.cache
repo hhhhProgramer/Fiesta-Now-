@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kxfCl3ArjsNQ0OvoAhza+z4PkDc4qDBqtoNj4en/sNphCmkVrC9kz6hBo/AKx2e6hBHWb/Av+iI5e1jYHs/5FA==",
+  "dgSpecHash": "2LlQZRz8qom0wQOho87Fr1X9XSnp6mLCcxL21I8gNj61dWFuQcEihaTlE+p2PMvc6HNAOyQCS+DIP/hqP/ITfg==",
   "success": true,
   "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/Api.csproj",
   "expectedPackageFiles": [
@@ -115,12 +115,5 @@
     "/home/hhhh/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/home/hhhh/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

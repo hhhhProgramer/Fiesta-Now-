@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Api.Responses;
 using AutoMapper;
@@ -46,6 +47,14 @@ namespace Api.Controllers
 
             return Ok(response);
         }
-        
+
+         [HttpGet("{id:int}")]
+        public IActionResult Get(int id)
+        {
+            var clase = _service.GetClases().Where(x => x.AcademiaId == id);
+            var claseDto = _mapper.Map<IEnumerable<Clase>, IEnumerable<ClaseResponseDto>>(clase);
+            var response = new ApiResponse<IEnumerable<ClaseResponseDto>>(claseDto);
+            return Ok(response);
+        }
     }
 }

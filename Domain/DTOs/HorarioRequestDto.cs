@@ -4,8 +4,8 @@ namespace Domain.DTOs
 {
     public class HorarioRequestDto
     {
-        public DateTime Apertura { get; set; }
-        public DateTime Cierre { get; set; }
+        public string Apertura { get; set; }
+        public string Cierre { get; set; }
         public string Dia { get; set; }
     }
 }
