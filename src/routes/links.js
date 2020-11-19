@@ -85,7 +85,7 @@ router.post('/add', async(req, res) => {
 
 
 router.get('/PanelAcademia', async(req, res) => {
-    const panel = await PanelAcademi.GetClass(req.session.AcademyId);
+    const panel = await PanelAcademi.GetClass(req.session.AcademyId); //
     const horarios = await PanelAcademi.GetHorario(panel);
 
     //console.log(horarios)
@@ -111,6 +111,27 @@ router.get('/type', (req, res) => {
     //console.log(horarios)
     res.render('links/type');
 })
+
+
+router.get('/DeleteAcademy', async(req, res) => {
+    let academy = await Academy.GetById(req.session.AcademyId);
+    res.render('links/DeleteAcademy', { academy: academy });
+})
+
+router.post('/DeleteAcademy', async(req, res) => {
+    if (await Academy.Delete(req.session.AcademyId)) {
+        req.session.academiaId = 0;
+        res.redirect("/signin");
+    } else {
+        res.redirect("/error");
+    }
+})
+
+router.get('/DeleteAcademy', (req, res) => {
+    res.render('links/DeleteAcademy');
+})
+
+
 
 
 

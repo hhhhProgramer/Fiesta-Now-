@@ -1,31 +1,51 @@
-<div class="card w-75 mx-auto mt-5" style="min-height: 850px; padding-bottom: 60px;">
-    <div class="card-header text-center">
-        <div class="input-group mb-2 w-50 mx-auto">
-            <div class="input-group-prepend">
-                <div class="input-group-text">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
-                            <path fill-rule="evenodd"
-                                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
-                        </svg>
-                </div>
-            </div>
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="buscar clase">
-        </div>
-    </div>
-    <div class="container ">
-        <div class="row row-cols-3">
-            {{#each horarios}}
-            <div class="col mt-5">
-                <div class="card">
-                    <div class="card-header">
-                        {{clase.nombre}}
+<head>
+    <link rel="stylesheet" href="/css/panel.css">
+</head>
+
+
+<div class="content mt-5">
+        <div class="container">
+            
+            <!-- end row -->
+            <div class="card">
+            <div class="card-body">
+                <!-- Search -->
+            
+                <div class="row mt-4">
+                    <div class="search mx-auto">
+                        <input onkeyup="SearchTargets()" type="text" class="searchTerm" id= "Search" placeholder="Buscar por nombre de la clase">
+                        <button type="button" class="searchButton">
+                            <i class="fa fa-search"></i>
+                        </button>
                     </div>
-                    <div class="card-body">
+                </div>
+                <!-- Search -->
+
+            <div class="row mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-2">
+                
+                {{#each horarios}}
+                <div class="col-lg-4" name = "Target">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>{{clase.nombre}}</h4>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <div class="card-body">
                         {{#each horarios}}
                             <p class="card-text"> {{dia}}:  {{apertura}}  -  {{cierre}}</p>
                         {{/each}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,4 +55,11 @@
             </div>
             {{/each}}
         </div>
+        </div>
+        </div>
+        <!-- container -->
+
+        <script src="/js/Panel.js" ></script>
     </div>
+
+    

@@ -11,33 +11,36 @@ async function ExistAcademy(account) {
     });
 
     let academy;
-    let url = "https://localhost:5001/api/cuenta/" + account.Correo + "/" + account.Password;
-    let result = await fetch(url, {
-        agent,
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    })
-    let respose = await result.json();
 
+    try {
 
-
-    if (respose) {
-        url = "https://localhost:5001/api/academia/Accout/" + respose.data.id;
-        console.log(url);
-        var queryAcademy = await fetch(url, {
+        let url = "https://localhost:5001/api/cuenta/" + account.Correo + "/" + account.Password;
+        const result = await fetch(url, {
             agent,
             headers: {
                 'Content-Type': 'application/json'
             }
         })
+        const response = await result.json();
 
-        academy = await queryAcademy.json();
-        console.log(academy);
+        if (response.data.id > 0) {
+            url = "https://localhost:5001/api/academia/Accout/" + response.data.id;
+            console.log(url);
+            var queryAcademy = await fetch(url, {
+                agent,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+
+            academy = await queryAcademy.json();
+            academy = academy.data
+        }
+    } catch (e) {
+        console.log(e);
     }
 
-
-    return academy.data;
+    return academy;
 }
 
 router.get('/signin', (req, res) => {
@@ -47,7 +50,7 @@ router.get('/signin', (req, res) => {
 router.post("/signin", async(req, res) => {
     let redirect = "/links/PanelAcademia";
     const Academy = await ExistAcademy(req.body);
-
+    console.log(Academy);
     if (Academy)
         req.session.AcademyId = Academy.id;
     else {
