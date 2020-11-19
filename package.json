@@ -1,0 +1,16 @@
+{
+  "name": "getdancenow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-session": "^1.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
