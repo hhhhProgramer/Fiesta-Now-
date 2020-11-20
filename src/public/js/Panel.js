@@ -20,3 +20,4 @@ function SearchTargets() {
             Targets[TargetIndex].style.display = "";
     }
 }
+

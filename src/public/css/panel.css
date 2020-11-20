@@ -7,12 +7,6 @@
 body {
     background: #f08621;
 }
-
-h4 {
-    line-height: 22px;
-    font-size: 18px;
-}
-
 .contenedor {
     margin: 2rem auto;
     border: 1px solid #aaa;
@@ -71,44 +65,12 @@ h4 {
     border-color: #ffffff
 }
 
-.buttons {
-    margin: 10%;
-    text-align: center;
-}
-
-.btn-hover {
-    width: 200px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align: center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    --moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.btn-hover:hover {
-    background-position: 100% 0;
-    --moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.btn-hover:focus {
-    outline: none;
-}
-
-.btn-hover.color-8 {
-    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
-    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.301);
 }
 
 .card-box {
@@ -117,6 +79,13 @@ h4 {
     margin-bottom: 30px;
     background-color: #fff;
     box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.568);
+    transition: 0.4s;
+}
+.card-box:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+      background-color: #00B4CC;
 }
 
 .social-links li a {
@@ -140,10 +109,6 @@ h4 {
     width: 88px;
 }
 
-.text-pink {
-    color: #ff679b!important;
-}
-
 .btn-rounded {
     border-radius: 2em;
 }
@@ -163,19 +128,19 @@ h4 {
     border: 3px solid #333333;
     border-right: none;
     padding: 5px;
-    height: 40px;
+    height: 50px;
     border-radius: 5px 0 0 5px;
     outline: none;
     color: #9DBFAF;
 }
 
 .searchTerm:focus {
-    color: #00B4CC;
+    color: #000000;
 }
 
 .searchButton {
     width: 40px;
-    height: 40px;
+    height: 50px;
     border: 1px solid #333333;
     background: #333333;
     text-align: center;
@@ -184,3 +149,4 @@ h4 {
     cursor: pointer;
     font-size: 20px;
 }
+
