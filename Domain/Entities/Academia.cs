@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Domain.Entities;
 
 namespace Entity
 {
@@ -18,6 +19,6 @@ namespace Entity
         public int CuentaID { get; set; }
         public Cuenta cuenta { get; set; }
         public ICollection<Clase> Clases { get; set; }
-        public ICollection<CodigoBaile> CodigoBailes { get; set; }
+        public ICollection<CodigoBaile_Academia> CodigoBailes { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Api.Responses;
 using AutoMapper;
@@ -47,6 +48,24 @@ namespace Api.Controllers
             return Ok(response);
         }
 
-        
+        [HttpGet("{id:int}")]
+        public IActionResult Get(int id)
+        {
+            var Academias = _service.GetAcademias().FirstOrDefault(x => x.Id == id);
+            var animalsDto = _mapper.Map<Academia, AcademiaResponseDto>(Academias);
+
+            var response = new ApiResponse<AcademiaResponseDto>(animalsDto);
+            return Ok(response);
+        }
+
+        [HttpGet("Accout/{id:int}")]
+        public IActionResult AccoutGet(int id)
+        {
+            var Academias = _service.GetAcademias().FirstOrDefault(x => x.CuentaID == id);
+            var animalsDto = _mapper.Map<Academia, AcademiaResponseDto>(Academias);
+
+            var response = new ApiResponse<AcademiaResponseDto>(animalsDto);
+            return Ok(response);
+        }
     }
 }

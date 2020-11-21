@@ -1,16 +1,20 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Api.Responses;
 using AutoMapper;
 using Domain.DTOs;
 using Domain.Interfaces;
 using Entity;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
 {
+    [EnableCors("Testing")]
     [Route("api/[controller]")]
     [ApiController]
+    
     public class EstudianteController : ControllerBase
     {
         private readonly IEstudianteServices _service;
@@ -38,11 +42,33 @@ namespace Api.Controllers
         public IActionResult Get()
         {
             var Estudiantes = _service.GetEstudiantes();
-            var animalsDto = _mapper.Map<IEnumerable<Estudiante>, IEnumerable<EstudianteResponseDto>>(Estudiantes);
+            var estudiantesDto = _mapper.Map<IEnumerable<Estudiante>, IEnumerable<EstudianteResponseDto>>(Estudiantes);
 
-            var response = new ApiResponse<IEnumerable<EstudianteResponseDto>>(animalsDto);
+            var response = new ApiResponse<IEnumerable<EstudianteResponseDto>>(estudiantesDto);
+
             return Ok(response);
         }
 
+        [HttpGet("{id:int}")]
+        public IActionResult Get(int id)
+        {
+            var Estudiantes = _service.GetEstudiantes().FirstOrDefault(x => x.Id == id);
+            var estudiantesDto = _mapper.Map<Estudiante, EstudianteResponseDto>(Estudiantes);
+
+            var response = new ApiResponse<EstudianteResponseDto>(estudiantesDto);
+
+            return Ok(response);
+        }
+
+        [HttpGet("Accout/{id:int}")]
+        public IActionResult AccoutGet(int id)
+        {
+            var Estudiantes = _service.GetEstudiantes().FirstOrDefault(x => x.CuentaID == id);
+            var estudiantesDto = _mapper.Map<Estudiante, EstudianteResponseDto>(Estudiantes);
+
+            var response = new ApiResponse<EstudianteResponseDto>(estudiantesDto);
+
+            return Ok(response);
+        }
     }
 }

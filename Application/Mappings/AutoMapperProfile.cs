@@ -24,8 +24,18 @@ namespace Infrestructure.Mappings
 
             CreateMap<Estudiante,EstudianteRequestDto>();
             CreateMap<Estudiante,EstudianteResponseDto>();
-            CreateMap<EstudianteRequestDto,Estudiante>();
-            
+            CreateMap<EstudianteRequestDto,Estudiante>()
+            .AfterMap((source, destination) =>
+            {
+                destination.cuenta = new Cuenta()
+                {
+                    Rol = source.Rol,
+                    Correo = source.Correo,
+                    Password = source.Password,
+                    Estatus = true
+                };
+            });
+
             CreateMap<Cuenta, CuentaRequestDto>();
             CreateMap<Cuenta, CuentaResponseDto>();
             CreateMap<CuentaRequestDto, Cuenta>();

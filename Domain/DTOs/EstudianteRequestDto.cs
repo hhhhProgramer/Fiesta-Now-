@@ -3,10 +3,11 @@ namespace  Domain.DTOs
 
     public class EstudianteRequestDto
     {
-        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        
-        public int CuentaID { get; set; }
+        public string Correo { get; set; }
+        public string Password { get; set; }
+        public int Rol { get; set; }
+    
     }    
 }

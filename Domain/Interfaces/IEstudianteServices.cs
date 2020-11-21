@@ -2,12 +2,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Entity;
 
-namespace Domain.Interfaces
-{
+namespace Domain.Interfaces{
+
     public interface IEstudianteServices
     {
-         IEnumerable<Estudiante> GetEstudiantes(); 
-         Task UpdateEstudiante(Estudiante estudiante);
-         Task AddEstudiante(Estudiante estudiante);
+        IEnumerable<Estudiante> GetEstudiantes();
+        Task UpdateEstudiante(Estudiante estudiante);
+        Task AddEstudiante(Estudiante estudiante);
     }
 }

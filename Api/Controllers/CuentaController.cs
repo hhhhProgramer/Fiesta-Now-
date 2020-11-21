@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Api.Responses;
 using AutoMapper;
@@ -45,5 +46,15 @@ namespace Api.Controllers
             return Ok(response);
         }
 
+        [HttpGet("{correo}/{password}")]
+
+        public IActionResult Get(string correo, string password)
+        {
+            var Cuentas = _service.GetCuentas().FirstOrDefault(x => x.Correo == correo && x.Password == password);
+            var animalsDto = _mapper.Map<Cuenta, CuentaResponseDto>(Cuentas);
+
+            var response = new ApiResponse<CuentaResponseDto>(animalsDto);
+            return Ok(response);
+        }
     }
 }

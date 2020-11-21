@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Domain.Entities;
 
 namespace Entity
 {
@@ -8,6 +9,7 @@ namespace Entity
     {
         public string Descripcion { get; set; }
         public string Tipo { get; set; }
+        public ICollection<CodigoBaile_Academia> CodigoBailes_Academias;
 
     }
 }

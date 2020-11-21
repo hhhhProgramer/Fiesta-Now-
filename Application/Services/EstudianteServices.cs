@@ -1,9 +1,8 @@
-
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Domain.Interfaces;
 using Entity;
-
+using Infrestructure.Repositories;
 
 namespace Application.Services
 {
@@ -24,12 +23,6 @@ namespace Application.Services
         public async Task UpdateEstudiante(Estudiante estudiante)
         {
             _unitOfWork.EstudiantesRepository.Update(estudiante);
-            await _unitOfWork.SaveChangesAsync();
-        }
-
-        public async Task DeleteAnimal(int id)
-        {
-            await _unitOfWork.EstudiantesRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
         }
 
