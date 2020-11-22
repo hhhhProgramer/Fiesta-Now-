@@ -44,21 +44,30 @@ async function ExistAcademy(account) {
 }
 
 router.get('/signin', (req, res) => {
-    res.render("auth/signin")
+
+    res.render("auth/signin", req.flash('navbar', true)[0])
+
 })
 
 router.post("/signin", async(req, res) => {
     let redirect = "/links/PanelAcademia";
     const Academy = await ExistAcademy(req.body);
     console.log(Academy);
-    if (Academy)
+    if (Academy) {
         req.session.AcademyId = Academy.id;
-    else {
+    } else {
         req.flash('failLogin', 'No se encontro ninguna cuenta con esos datos registrada, favor de verificar los datos');
         redirect = "/signin";
     }
     res.redirect(redirect);
 })
+
+router.get('/logout', (req, res) => {
+    req.session.AcademyId = 0;
+    res.redirect("/signin");
+
+})
+
 
 
 

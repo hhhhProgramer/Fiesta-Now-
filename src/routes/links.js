@@ -6,6 +6,9 @@ const fetch = require("node-fetch")
 const PanelAcademi = require('./../lib/PanelAcademy');
 const Academy = require('./../lib/GestionAcademy');
 
+function test(x) {
+    return 1;
+}
 
 function GenerateHorario(clase) {
     let newshorarios = new Array();
@@ -85,9 +88,9 @@ router.post('/add', async(req, res) => {
 
 
 router.get('/PanelAcademia', async(req, res) => {
+
     const panel = await PanelAcademi.GetClass(req.session.AcademyId); //
     const horarios = await PanelAcademi.GetHorario(panel);
-
     //console.log(horarios)
     res.render('links/AcademiaPanel', { horarios: horarios });
 })
@@ -127,9 +130,6 @@ router.post('/DeleteAcademy', async(req, res) => {
     }
 })
 
-router.get('/DeleteAcademy', (req, res) => {
-    res.render('links/DeleteAcademy');
-})
 
 
 router.get('/UpdateAcademy', async(req, res) => {

@@ -12,5 +12,8 @@
   "dependencies": {
     "express-session": "^1.17.1",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "rewire": "^5.0.0"
   }
 }
