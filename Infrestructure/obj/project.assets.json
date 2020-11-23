@@ -5824,11 +5824,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj",
+      "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj",
       "projectName": "Infrestructure",
-      "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\Infrestructure.csproj",
+      "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Infrestructure\\obj\\",
+      "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5842,8 +5842,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj"
+            "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj"
             }
           }
         }

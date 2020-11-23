@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
+      "projectPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\obj\\",
+      "outputPath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"

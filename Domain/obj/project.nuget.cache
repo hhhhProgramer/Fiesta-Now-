@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zkqqqluWQ4YEdetD97pvCjXDdevFxCqk0yUodQhhmSBF9KgLn6zspZYaGMsbEcBADZAenctd0lm6OU9dskXMVQ==",
+  "dgSpecHash": "xSVtgHAlqAJv2vZNqREqNR7sXi17dpq8JMshAr6svhUZv3S/Pu56sYZKWOr7KhtPVoO44v8ECXpoQcmBAPrUdA==",
   "success": true,
-  "projectFilePath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

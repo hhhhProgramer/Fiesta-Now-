@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lDsIDd5BE296a4n9jZvcHyc6fUhdSDdu1DBeHwk28l5ZKDclBehYxotsJlIF8JiCH9yOS4vbgSt+MsjZJjup6Q==",
+  "dgSpecHash": "7daCS6th+TqglQZ9UZdr769cY908BUVJXBIFhnqauuDUMQFAh2E9one/5dfIelk5nqbDU4N9HzZyELTgKZ/X+A==",
   "success": true,
-  "projectFilePath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionCuentas\\Api\\Api.csproj",
+  "projectFilePath": "D:\\carlo\\Documents\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

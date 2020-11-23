@@ -20,7 +20,7 @@ namespace Infrestructure.Mappings
                     Password = source.Password,
                     Estatus = true
                 };
-            });
+            });// this copy paste above
 
             CreateMap<Estudiante,EstudianteRequestDto>();
             CreateMap<Estudiante,EstudianteResponseDto>();

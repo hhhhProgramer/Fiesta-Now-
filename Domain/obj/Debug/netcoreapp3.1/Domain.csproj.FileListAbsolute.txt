@@ -28,3 +28,12 @@ D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuenta
 D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
 >>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
