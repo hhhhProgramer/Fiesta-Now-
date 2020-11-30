@@ -23,11 +23,20 @@ namespace Application.Services
 
         public async Task UpdateAcademia(Academia academia)
         {
+            academia.cuenta = null;
+            
+            if (academia.CuentaID == 0)
+            {
+                Academia academy = await GetById(academia.Id);
+                academia.CuentaID = academy.CuentaID;
+            }
+                
+            
             _unitOfWork.AcademiasRepository.Update(academia);
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public async Task DeleteAnimal(int id)
+        public async Task DeleteAcademy(int id)
         {
             await _unitOfWork.AcademiasRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
@@ -38,5 +47,11 @@ namespace Application.Services
             await _unitOfWork.AcademiasRepository.Add(academia);
             await _unitOfWork.SaveChangesAsync();
         }
+
+        public async Task<Academia> GetById(int id)
+        {
+            return await _unitOfWork.AcademiasRepository.GetById(id);
+        }
+
     }
 }

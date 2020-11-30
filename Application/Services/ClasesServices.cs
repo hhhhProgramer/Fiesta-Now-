@@ -36,5 +36,10 @@ namespace Application.Services
             await _unitOfWork.AcademiasRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
         }
+
+        public async Task<Clase> GetById(int id){
+            return await _unitOfWork.ClaseRepository.GetById(id);
+        }
+
     }
 }
