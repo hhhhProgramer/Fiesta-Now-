@@ -32,7 +32,7 @@ Panel.GetClass = async function(id) {
     });
 
 
-    let resutl = await fetch("https://localhost:5001/api/clase/" + id, { agent })
+    let resutl = await fetch("https://localhost:5001/api/clase/Academy/" + id, { agent })
         .then(response => response.json())
         .then(json => json)
 

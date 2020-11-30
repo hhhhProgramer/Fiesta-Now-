@@ -5,11 +5,11 @@ const router = express.Router();
 const fetch = require("node-fetch")
 const PanelAcademi = require('./../lib/PanelAcademy');
 const Academy = require('./../lib/GestionAcademy');
+const Horario = require('./../lib/GestionHorario');
+const Classes = require('./../lib/GestionClass');
 
-function test(x) {
-    return 1;
-}
 
+//TODO: mover funcion a su archivo y clase correspondiente
 function GenerateHorario(clase) {
     let newshorarios = new Array();
 
@@ -68,11 +68,13 @@ async function RegisterClass(clase) {
 }
 
 router.get('/add', (req, res) => {
-    res.render('links/add');
+    res.render('links/addClass');
 })
 
 
 router.post('/add', async(req, res) => {
+
+    //TODO:agregar un destructuring 
     let obj = {
         "Nombre": req.body.aula,
         "alumnosMax": parseInt(req.body.alumnos),
@@ -143,6 +145,45 @@ router.post('/UpdateAcademy', async(req, res) => {
     else
         res.redirect("/error");
 })
+
+
+router.get('/UpdateClass/:id', async(req, res) => {
+    const Class = new Array();
+    Class.push(await Classes.GetById(req.params.id)); //
+    const Class_Horarios = await PanelAcademi.GetHorario(Class);
+
+    res.render('links/UpdateClass', { class: Class_Horarios[0], id: req.params.id });
+})
+
+router.post('/UpdateClass/:id', async(req, res) => {
+    const { id } = req.params;
+    const { aula, alumnos, Tipos, Updatedays, UpdateInicio, UpdateCierre, Updateid, days, Inicio, Cierre, Deleteid } = req.body;
+    const Update = {
+        Clase: {
+            id,
+            aula,
+            alumnos,
+            Tipos,
+            academiaId: req.session.AcademyId,
+            NewHorairos: {
+                days: days,
+                Inicio,
+                Cierre
+            }
+        },
+        Horarios: {
+            Id: Updateid,
+            Days: Updatedays,
+            Inicio: UpdateInicio,
+            Cierre: UpdateCierre
+        },
+        Delete: Deleteid
+    }
+    await Classes.Update(Update);
+    console.log(Update);
+    res.send("hola con paramatro")
+})
+
 
 
 

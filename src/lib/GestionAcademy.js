@@ -17,7 +17,7 @@ Academy.Add = async function(Academy) {
         Direction: Academy.direccion,
         Longitud: 1992321512.42563,
         Latitud: 198728745872.123857129,
-        Logo: Academy.photo,
+        Logo: Academy.logo,
         Rol: 1
     }
 
@@ -51,11 +51,13 @@ Academy.Delete = async function(id) {
             agent,
             method: "DELETE"
         })
+
+        return response.status < 500;
     } catch (e) {
         console.log("Error", "color:red");
         return 0;
     }
-    return 1;
+    return 0;
 }
 
 Academy.GetById = async function(Id) {
@@ -91,13 +93,13 @@ Academy.Update = async function(Id, academy) {
     });
 
     let obj = {
-        nombre: academy.Nombre,
-        numero: academy.Numero,
-        descripcion: academy.Descripcion,
-        direction: academy.Direction,
-        longitud: parseFloat(academy.Longitud),
-        latitud: parseFloat(academy.Latitud),
-        logo: academy.photo
+        nombre: academy.nombre,
+        numero: academy.numero,
+        descripcion: academy.descripcion,
+        direction: academy.direction,
+        longitud: parseFloat(academy.longitud),
+        latitud: parseFloat(academy.latitud),
+        logo: academy.logo
     }
 
     try {
