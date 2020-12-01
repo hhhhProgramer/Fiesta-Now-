@@ -31,5 +31,11 @@ namespace Application.Services
             await _unitOfWork.EstudiantesRepository.Add(estudiante);
             await _unitOfWork.SaveChangesAsync();
         }
+
+        public async Task DeleteAnimal(int id)
+        {
+            await _unitOfWork.EstudiantesRepository.Delete(id);
+            await _unitOfWork.SaveChangesAsync();
+        }
     }
 }
