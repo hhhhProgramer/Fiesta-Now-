@@ -10,10 +10,12 @@ Horario.ToFormat = function(clase) {
         let horariosInicio = clase.Inicio;
         let horariosCierre = clase.Cierre;
         let Dias = clase.days;
+        let id = clase.Id;
         let row = 0;
 
         horariosInicio.forEach(horario => (
             newshorarios.push({
+                id: id == undefined ? 0 : parseInt(id[row]),
                 Apertura: "2019-07-26T" + horario,
                 Cierre: "2019-07-26T" + horariosCierre[row],
                 Dia: Dias[row++]

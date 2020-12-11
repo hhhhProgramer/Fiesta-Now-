@@ -6,50 +6,50 @@
                 <div class="row mt-3">
                     <div class="col">
                         <h6 class="mt-2"> Insertar un logo</h6>
-                        <input type="file" name="logo" />
+                        <input type="file" name="logo" required/>
                     </div>
                 </div>
 
                 <div class="row mt-4">
                     <h6><label>Nombre de la academia</label></h6>
-                    <input name="academy" type="text" class="form-control" placeholder="Nombre de la academia">
+                    <input name="academy" type="text" class="form-control" placeholder="Nombre de la academia" required>
                 </div>
 
                 <div class="row mt-4">
                     <div class="col">
                         <h6><label>Contacto</label></h6>
-                        <input name="contact" type="text" class="form-control" placeholder="Contacto">
+                        <input name="contact" type="text" class="form-control" placeholder="Contacto" required>
                     </div>
                     <div class="col">
                         <h6><label>Teléfono</label></h6>
-                        <input name="number" type="text" class="form-control" placeholder="Teléfono">
+                        <input name="number" type="number" class="form-control" placeholder="Teléfono" required>
                     </div>
                 </div>
 
                 <div class="row mt-4">
                     <h6><label>Dirección</label></h6>
-                    <input name="direccion" type="text" class="form-control" placeholder="Dirección">
+                    <input name="direccion" type="text" class="form-control" placeholder="Dirección" required>
                 </div>
 
                 <div class="row mt-4">
                     <h6><label>Correo electrónico</label></h6>
-                    <input name="correo" type="text" class="form-control" placeholder="Correo electrónico">
+                    <input name="correo" type="email" class="form-control" placeholder="Correo electrónico" required>
                 </div>
 
                 <div class="row mt-4">
                     <h6><label>Contraseña nueva</label></h6>
-                    <input name="password" type="password" class="form-control" placeholder="Contraseña nueva">
+                    <input name="password" type="password" class="form-control" placeholder="Contraseña nueva" required>
                 </div>
-
                 <div class="row mt-4">
                     <h4 class="mt-2"> Descripción</h4>
                 </div>
                 <div class="row mt-2">
-                    <textarea name="descripcion" cols="150" rows="4"></textarea>
+                    <textarea name="descripcion" cols="150" rows="4" required></textarea>
                 </div>
 
                 <div class="row mt-3">
-                    <input type="submit" name="Register" class="ClaseBoton" value="Siguiente">
+                    <input type="submit" name="Register" class="btn btn-success" value="Siguiente" required>
+                    <a class="btn btn-info text-light ml-4" href="/signin">Cancelar</a>
                 </div>
             </form>
         </div>

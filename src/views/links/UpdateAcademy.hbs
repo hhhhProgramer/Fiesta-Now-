@@ -1,7 +1,7 @@
 {{> navAcademy}}
 <section>
   <h1 class="text-light text-center mt-4">
-    Eliminar Academia
+    Actualizar datos de la Academia
   </h1>
   <div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
     <div class="card-body">
@@ -18,6 +18,7 @@
             class="form-control"
             placeholder="Nombre de la academia"
             value="{{academy.nombre}}"
+              required
           />
         </div>
         <div class="row mt-4 ml-2">
@@ -32,6 +33,8 @@
               type="text"
               class="form-control"
               placeholder="Contacto"
+              value="Contacto"
+                required
             />
           </div>
           <div class="col mr-4">
@@ -46,6 +49,7 @@
               class="form-control"
               placeholder="Teléfono"
               value="{{academy.numero}}"
+                required
             />
           </div>
         </div>
@@ -61,34 +65,7 @@
             class="form-control"
             placeholder="Dirección"
             value="{{academy.direction}}"
-          />
-        </div>
-        <div class="row mt-4 ml-4 mr-4">
-          <h6>
-            <label>
-              Latitud
-            </label>
-          </h6>
-          <input
-            name="latitud"
-            type="text"
-            class="form-control"
-            placeholder="Dirección"
-            value="{{academy.latitud}}"
-          />
-        </div>
-        <div class="row mt-4 ml-4 mr-4">
-          <h6>
-            <label>
-              Longitud
-            </label>
-          </h6>
-          <input
-            name="longitud"
-            type="text"
-            class="form-control"
-            placeholder="Dirección"
-            value="{{academy.longitud}}"
+              required
           />
         </div>
         <div class="row mt-4 ml-4">
@@ -97,22 +74,17 @@
           </h4>
         </div>
         <div class="row mt-2 ml-4 mr-4">
-          <textarea name="descripcion" cols="150" rows="4">
-            {{academy.descripcion}}
-          </textarea>
+          <textarea name="descripcion" cols="150" rows="4" required>{{academy.descripcion}}</textarea>
         </div>
         <div class="row mt-3 ml-4">
           <input
             type="submit"
             id="Update"
-            class="btn-hover color-8"
+            class="btn-hover btn btn-success"
             value="Actualizar"
+              required
           />
-          <button class="btn-hover color-8">
-            <a class="text-light" href="#">
-              Cancelar
-            </a>
-          </button>
+          <a class="btn btn-info text-light ml-4" href="/links/PanelAcademia">Cancelar</a>
         </div>
       </form>
     </div>

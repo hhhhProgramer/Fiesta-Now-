@@ -32,8 +32,11 @@ Classes.Update = async function(Update) {
     const agent = new https.Agent({
         rejectUnauthorized: false
     });
+    console.log(Update);
+    const Newhoarios = Horarios.ToFormat(Update.NewHorarios);
+    const UpdateHorarios = Horarios.ToFormat(Update.UpdateHorarios);
 
-    Update.Clase.horarios = Horarios.ToFormat(Update.Clase.NewHorairos);
+    Update.Clase.Horarios = Newhoarios.concat(UpdateHorarios);
 
     console.log(Update.Clase);
     await fetch("https://localhost:5001/api/clase/" + Update.Clase.id, {

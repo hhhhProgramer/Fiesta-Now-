@@ -37,7 +37,7 @@ function Restaurar(del) {
     var destination = document.getElementById('class');
     var copy = row.cloneNode(true);
     padre.removeChild(row);
-    copy.setAttribute("onclick", "RemoveClass('" + del + "')");
+    copy.getElementsByTagName("button")[0].setAttribute("onclick", "RemoveClass('" + del + "')");
     destination.appendChild(copy);
 }
 

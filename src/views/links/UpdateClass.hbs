@@ -45,21 +45,23 @@
                             </thead>
                             <tbody id="class">
                                 {{#each class.horarios}}
-                                    <tr name='row' id='row-{{id}}' onclick="RemoveClass('row-{{id}}')">
+                                    <tr name='row' id='row-{{id}}'>
                                         <th scope='row'>
-                                                <button type='button' name='rmv-class' class='btn btn-success btn-sm'> 
+                                                <button type='button' name='rmv-class' class='btn btn-success btn-sm' onclick="RemoveClass('row-{{id}}')"> 
                                                 <span class='glyphicon glyphicon-erase'></span> 
                                                 </button> 
                                         </th> 
-                                        <td><select name='Updatedays' id='day-row-{{id}}' value="{{dia}}">
-                                            <option>Lunes</option>
-                                            <option>Martes</option>
-                                            <option>Miercoles</option>
-                                            <option>Jueves</option>
-                                            <option>Viernes</option>
-                                            <option>Sabado</option>
-                                            <option>Domingo</option>
-                                        </select></td>
+                                        <td>
+                                        <select name='Updatedays' id='day-row-{{id}}' >
+                                            <option value="Lunes" >Lunes</option>
+                                            <option value="Martes" >Martes</option>
+                                            <option value="Miercoles" >Miercoles</option>
+                                            <option value="Jueves" >Jueves</option>
+                                            <option value="Viernes" >Viernes</option>
+                                            <option value="Sabado" >Sabado</option>
+                                            <option value="Domingo" >Domingo</option>
+                                        </select>
+                                        </td>
                                         <td><input type='time' name='UpdateInicio' id='Inicio-row-{{id}}'  value='{{apertura}}'></td>
                                         <td><input type='time' name='UpdateCierre' id='Cierre-row-{{id}}'  value='{{cierre}}'></td>
                                         <td><input type='text' name='Updateid' id='id-row-{{id}}'  value='{{id}}' style="display: none;" hidden disabled</td>

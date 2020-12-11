@@ -97,8 +97,8 @@ Academy.Update = async function(Id, academy) {
         numero: academy.numero,
         descripcion: academy.descripcion,
         direction: academy.direction,
-        longitud: parseFloat(academy.longitud),
-        latitud: parseFloat(academy.latitud),
+        longitud: parseFloat(1992321512.42563),
+        latitud: parseFloat(198728745872.123857129),
         logo: academy.logo
     }
 

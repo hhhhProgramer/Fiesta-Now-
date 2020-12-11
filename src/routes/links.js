@@ -160,28 +160,28 @@ router.post('/UpdateClass/:id', async(req, res) => {
     const { aula, alumnos, Tipos, Updatedays, UpdateInicio, UpdateCierre, Updateid, days, Inicio, Cierre, Deleteid } = req.body;
     const Update = {
         Clase: {
-            id,
-            aula,
-            alumnos,
-            Tipos,
-            academiaId: req.session.AcademyId,
-            NewHorairos: {
-                days: days,
-                Inicio,
-                Cierre
-            }
+            id: parseInt(id),
+            Nombre: aula,
+            AlumnosMax: parseInt(alumnos),
+            CodigoBaileID: parseInt(Tipos),
+            AcademiaId: parseInt(req.session.AcademyId)
         },
-        Horarios: {
+        NewHorarios: {
+            days: days,
+            Inicio,
+            Cierre
+        },
+        UpdateHorarios: { //horarios que se vean a actualizar
             Id: Updateid,
-            Days: Updatedays,
+            days: Updatedays,
             Inicio: UpdateInicio,
             Cierre: UpdateCierre
         },
-        Delete: Deleteid
+        Delete: Deleteid //id de los horarios que se eliminaran
     }
     await Classes.Update(Update);
     console.log(Update);
-    res.send("hola con paramatro")
+    res.redirect("/links/PanelAcademia");
 })
 
 
