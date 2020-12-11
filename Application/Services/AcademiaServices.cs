@@ -23,15 +23,12 @@ namespace Application.Services
 
         public async Task UpdateAcademia(Academia academia)
         {
+           
+            Academia academy = await GetById(academia.Id);
+            academia.CuentaID = academy.CuentaID;
             academia.cuenta = null;
             
-            if (academia.CuentaID == 0)
-            {
-                Academia academy = await GetById(academia.Id);
-                academia.CuentaID = academy.CuentaID;
-            }
-                
-            
+
             _unitOfWork.AcademiasRepository.Update(academia);
             await _unitOfWork.SaveChangesAsync();
         }
