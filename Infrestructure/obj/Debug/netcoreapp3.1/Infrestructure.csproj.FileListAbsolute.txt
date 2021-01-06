@@ -46,3 +46,18 @@ D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuenta
 D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.pdb
 D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.genruntimeconfig.cache
 >>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.deps.json
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.json
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.dev.json
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Domain.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csprojAssemblyReference.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.AssemblyInfoInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.AssemblyInfo.cs
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csproj.CoreCompileInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csproj.CopyComplete
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.genruntimeconfig.cache

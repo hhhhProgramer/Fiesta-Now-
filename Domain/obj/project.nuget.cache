@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M0VmUIXGI9z+M4Jh375ViMO7m5JBch5zpKXGzDguR3OZWfQzXnPssSXKnhwPS3kfyFB1Jy2vJPE8QQBD9aLTfw==",
+  "dgSpecHash": "SkEW9Plsf2576gHu0BgMmpe1NmoHHwndEugjL8FQTeuUxE4IK2T7fr3fhOV44puSngVps4TZ1/RLvPr7K+Qufw==",
   "success": true,
-  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
+  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
