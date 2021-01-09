@@ -508,6 +508,7 @@ textarea.input {
     width: 90px;
     text-align: center;
     color: #FFF;
+    text-decoration: none;
 }
 
 .header-ctn>div>a>i {
