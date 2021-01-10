@@ -136,6 +136,7 @@ router.post('/DeleteAcademy', async(req, res) => {
 
 router.get('/UpdateAcademy', async(req, res) => {
     let academy = await Academy.GetById(req.session.AcademyId);
+    console.log(academy);
     res.render('links/UpdateAcademy', { academy: academy });
 })
 
@@ -148,10 +149,10 @@ router.post('/UpdateAcademy', async(req, res) => {
 
 
 router.get('/UpdateClass/:id', async(req, res) => {
-    const Class = new Array();
+    let Class = new Array();
     Class.push(await Classes.GetById(req.params.id)); //
     const Class_Horarios = await PanelAcademi.GetHorario(Class);
-
+    console.log(Class_Horarios[0]);
     res.render('links/UpdateClass', { class: Class_Horarios[0], id: req.params.id });
 })
 

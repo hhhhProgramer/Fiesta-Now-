@@ -34,6 +34,7 @@ function Restaurar(del) {
 
     let row = document.getElementById(del);
     let padre = row.parentNode;
+
     var destination = document.getElementById('class');
     var copy = row.cloneNode(true);
     padre.removeChild(row);
@@ -48,18 +49,29 @@ function RemoveClass(del) {
 
     if (del.indexOf("--") == -1) {
 
+        //cambiar los nombre 
         document.getElementById("day" + "-" + del).setAttribute("name", "DeleteDay");
         document.getElementById("Inicio" + "-" + del).setAttribute("name", "DeleteInicio");
         document.getElementById("Cierre" + "-" + del).setAttribute("name", "DeleteCierre");
         document.getElementById("id" + "-" + del).setAttribute("name", "Deleteid");
 
 
-        var copy = row.cloneNode(true);
-        var destination = document.getElementById('trash');
+        let copy = row.cloneNode(true);
+        let destination = document.getElementById('trash');
+        let button = copy.getElementsByTagName("button")[0];
+
+
         destination.appendChild(copy)
-        copy.setAttribute("onclick", "Restaurar('" + del + "')")
+        button.setAttribute("onclick", "Restaurar('" + del + "')")
     }
 
 
     padre.removeChild(row);
+}
+
+
+function setDay(id, day) {
+    let select = document.getElementById(id);
+    select.value = day;
+    alert("Image is loaded");
 }

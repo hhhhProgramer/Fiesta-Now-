@@ -50,7 +50,7 @@
                                     <tr name='row' id='row-{{id}}'>
                                         <th scope='row'>
                                                 <button type='button' name='rmv-class' class='btn btn-success btn-sm' onclick="RemoveClass('row-{{id}}')"> 
-                                                <span class='glyphicon glyphicon-erase'></span> 
+                                                <span class='glyphicon glyphicon-erase'>-</span> 
                                                 </button> 
                                         </th> 
                                         <td>
@@ -67,6 +67,7 @@
                                         <td><input type='time' name='UpdateInicio' id='Inicio-row-{{id}}'  value='{{apertura}}'></td>
                                         <td><input type='time' name='UpdateCierre' id='Cierre-row-{{id}}'  value='{{cierre}}'></td>
                                         <td><input type='text' name='Updateid' id='id-row-{{id}}'  value='{{id}}' style="display: none;" hidden disabled</td>
+                                        <script>document.querySelector('#day-row-{{id}}').value = '{{dia}}';</script>
                                     </tr>
                                 {{/each}}
                             </tbody>

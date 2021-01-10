@@ -6,7 +6,7 @@ document.getElementById("add-horario").addEventListener("click", function() {
         "<tr id =" + rowid + " name='row'>\
         <th scope='row'>\
         <button type='button' onclick=RemoveClass('" + rowid + "')  name='rmv-class' class='btn btn-success btn-sm'> \
-            <span class='glyphicon glyphicon-erase'></span> \
+            <span class='glyphicon glyphicon-erase'>-</span> \
             </button> \
         </th> \
         <td><select name='days' id='day'>\
