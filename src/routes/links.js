@@ -156,6 +156,10 @@ router.get('/UpdateClass/:id', async(req, res) => {
     res.render('links/UpdateClass', { class: Class_Horarios[0], id: req.params.id });
 })
 
+router.get('/Map', (req, res) => {
+    res.render('links/Map');
+})
+
 router.post('/UpdateClass/:id', async(req, res) => {
     const { id } = req.params;
     const { aula, alumnos, Tipos, Updatedays, UpdateInicio, UpdateCierre, Updateid, days, Inicio, Cierre, Deleteid } = req.body;
