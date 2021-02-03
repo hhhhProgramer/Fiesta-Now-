@@ -11,7 +11,6 @@ namespace Application.Services
     public class ClasesServices : IClaseServices
     {
         private readonly IUnitOfWork _unitOfWork;
-
         public ClasesServices(IUnitOfWork unitOfWork)
         {
             this._unitOfWork = unitOfWork;

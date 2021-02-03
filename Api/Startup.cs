@@ -61,6 +61,7 @@ namespace Iterface
 
             services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
             services.AddTransient<IAcademiaServices, AcademiaServices>();
+            services.AddTransient<IEstudianteServices, EstudianteServices>();
             services.AddTransient<ICuentaServices, CuentaServices>();
             services.AddTransient<IHorarioServices, HorarioServices>();
             services.AddTransient<IClaseServices, ClasesServices>();

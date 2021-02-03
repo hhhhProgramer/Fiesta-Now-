@@ -449,7 +449,11 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "0.0.0.0"
+=======
+            "fileVersion": "4.6.25512.1"
+>>>>>>> f2d257d... Update
           }
         }
       },
@@ -458,7 +462,11 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "0.0.0.0"
+=======
+            "fileVersion": "4.6.25512.1"
+>>>>>>> f2d257d... Update
           }
         }
       },
@@ -467,7 +475,11 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "0.0.0.0"
+=======
+            "fileVersion": "4.6.25512.1"
+>>>>>>> f2d257d... Update
           }
         }
       },
@@ -526,6 +538,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+<<<<<<< HEAD
       "System.ComponentModel.Annotations/4.7.0": {
         "runtime": {
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
@@ -534,6 +547,9 @@
           }
         }
       },
+=======
+      "System.ComponentModel.Annotations/4.7.0": {},
+>>>>>>> f2d257d... Update
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
