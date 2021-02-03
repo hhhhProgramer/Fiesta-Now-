@@ -49,11 +49,33 @@ namespace Api.Controllers
         }
 
          [HttpGet("{id:int}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
+        {
+            Clase clase = await _service.GetById(id);
+            var claseDto = _mapper.Map<Clase, ClaseResponseDto>(clase);
+            var response = new ApiResponse<ClaseResponseDto>(claseDto);
+            return Ok(response);
+        }
+
+        [HttpGet("Academy/{id:int}")]
+        public IActionResult GetForAcademy(int id)
         {
             var clase = _service.GetClases().Where(x => x.AcademiaId == id);
             var claseDto = _mapper.Map<IEnumerable<Clase>, IEnumerable<ClaseResponseDto>>(clase);
             var response = new ApiResponse<IEnumerable<ClaseResponseDto>>(claseDto);
+            return Ok(response);
+        }
+
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> PUT(int id, ClaseRequestDto ClasDto)
+        {
+            var clase = _mapper.Map<ClaseRequestDto, Clase>(ClasDto);
+            clase.Id = id;
+            await _service.UpdateClase(clase);
+
+            var claseresponseDto = _mapper.Map<Clase, ClaseResponseDto>(clase);
+            var response = new ApiResponse<ClaseResponseDto>(claseresponseDto);
+
             return Ok(response);
         }
     }

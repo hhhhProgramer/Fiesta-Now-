@@ -9,5 +9,7 @@ namespace Domain.Interfaces{
         IEnumerable<Estudiante> GetEstudiantes();
         Task UpdateEstudiante(Estudiante estudiante);
         Task AddEstudiante(Estudiante estudiante);
+        Task DeleteEstudiante(int id);
+        Task<Estudiante> GetById(int id);
     }
 }

@@ -32,10 +32,15 @@ namespace Application.Services
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public async Task DeleteAnimal(int id)
+        public async Task DeleteEstudiante(int id)
         {
             await _unitOfWork.EstudiantesRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
+        }
+
+        public async Task<Estudiante> GetById(int id)
+        {
+            return await _unitOfWork.EstudiantesRepository.GetById(id);
         }
     }
 }

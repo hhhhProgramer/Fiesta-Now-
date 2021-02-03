@@ -8,5 +8,6 @@ namespace Domain.DTOs
         public string Apertura { get; set; }
         public string Cierre { get; set; }
         public string Dia { get; set; }
+        public int ClaseId { get; set; }
     }
 }

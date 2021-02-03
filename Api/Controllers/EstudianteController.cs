@@ -70,5 +70,22 @@ namespace Api.Controllers
 
             return Ok(response);
         }
+
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateEstudiante(int id, EstudianteRequestDto EstudianteDto)
+        {
+            var update = _mapper.Map<Estudiante>(EstudianteDto);
+            update.Id = id;
+            await _service.UpdateEstudiante(update);
+            return Ok();
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> DeleteEstudiante(int id)
+        {
+            await _service.DeleteEstudiante(id);
+            return Ok();
+        }
+
     }
 }

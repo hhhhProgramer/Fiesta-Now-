@@ -45,6 +45,16 @@ namespace Api.Controllers
             return Ok(response);
         }
 
+        [HttpGet("horario/{id:int}")]
+        public async Task<IActionResult> GetHorario(int id)
+        {
+            Horario Cuentas = await _service.GetById(id);
+            var animalsDto = _mapper.Map<Horario, HorarioResponseDto>(Cuentas);
+
+            var response = new ApiResponse<HorarioResponseDto>(animalsDto);
+            return Ok(response);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post(HorarioRequestDto HorarioDto)
         {
@@ -55,6 +65,18 @@ namespace Api.Controllers
             var response = new ApiResponse<HorarioResponseDto>(horarioresponseDto);
 
             return Ok(response);
+        }
+
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateAcademy(int id, HorarioRequestDto HorarioDto)
+        {
+            Horario horario = await _service.GetById(id);
+            var update = _mapper.Map<Horario>(HorarioDto);
+            update.Id = id;
+            update.ClaseId = horario.ClaseId;
+
+            await _service.UpdateHorario(update);
+            return Ok();
         }
     }
 }

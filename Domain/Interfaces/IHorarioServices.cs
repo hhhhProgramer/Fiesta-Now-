@@ -9,5 +9,7 @@ namespace Domain.Interfaces
     {
         Task AddHorarios(Horario horarios);
         IEnumerable<Horario> GetHorario();
+        Task UpdateHorario(Horario horarios);
+        Task<Horario> GetById(int id);
     }
 }

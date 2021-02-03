@@ -8,10 +8,11 @@ namespace Domain.DTOs
         public string Password { get; set; }
         public string Descripcion { get; set; }
         public string Direction { get; set; }
-        public float Longitud { get; set; }
-        public float Latitud { get; set; }
+        public double Longitud { get; set; }
+        public double Latitud { get; set; }
         public string Logo { get; set; }
         public int Rol { get; set; }
+        public int CuentaID { get; set; }
     }
 }
 

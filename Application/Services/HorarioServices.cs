@@ -20,9 +20,20 @@ namespace Application.Services
             await _unitOfWork.SaveChangesAsync();
         }
 
+        public async Task UpdateHorario(Horario horarios){
+            _unitOfWork.HorariosRepository.Update(horarios);
+            await _unitOfWork.SaveChangesAsync();
+        }
+
         public IEnumerable<Horario> GetHorario()
         {
             return _unitOfWork.HorariosRepository.GetAll();
         }
+
+        public async Task<Horario> GetById(int id)
+        {
+            return await _unitOfWork.HorariosRepository.GetById(id);
+        }
+
     }
 }
