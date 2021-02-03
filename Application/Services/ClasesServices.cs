@@ -8,7 +8,10 @@ namespace Application.Services
     public class ClasesServices : IClaseServices
     {
         private readonly IUnitOfWork _unitOfWork;
+<<<<<<< HEAD
         
+=======
+>>>>>>> 41a9133... add server dbstring
         public ClasesServices(IUnitOfWork unitOfWork)
         {
             this._unitOfWork = unitOfWork;

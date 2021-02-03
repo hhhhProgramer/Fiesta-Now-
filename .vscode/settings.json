@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
     "ponicode.testSettings.testLocation.locationType": "Same folder as source file",
     "ponicode.testSettings.testLocation.path": "{rootDir}/{filePath}/{fileName}.test.{ext}"
+=======
+<<<<<<< HEAD
+   
+=======
+    "ponicode.testSettings.testLocation.locationType": "Same folder as source file",
+    "ponicode.testSettings.testLocation.path": "{rootDir}/{filePath}/{fileName}.test.{ext}"
+>>>>>>> f2d257d... Update
+>>>>>>> 41a9133... add server dbstring
 }

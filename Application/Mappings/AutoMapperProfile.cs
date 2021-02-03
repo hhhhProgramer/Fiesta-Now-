@@ -20,6 +20,20 @@ namespace Infrestructure.Mappings
                     Password = source.Password,
                     Estatus = true
                 };
+            });// this copy paste above
+
+            CreateMap<Estudiante,EstudianteRequestDto>();
+            CreateMap<Estudiante,EstudianteResponseDto>();
+            CreateMap<EstudianteRequestDto,Estudiante>()
+            .AfterMap((source, destination) =>
+            {
+                destination.cuenta = new Cuenta()
+                {
+                    Rol = source.Rol,
+                    Correo = source.Correo,
+                    Password = source.Password,
+                    Estatus = true
+                };
             });
 
             CreateMap<Cuenta, CuentaRequestDto>();

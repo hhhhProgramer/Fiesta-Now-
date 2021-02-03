@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Domain.Interfaces;
 using Entity;
-using Infrestructure.Repositories;
 
 namespace Application.Services
 {
