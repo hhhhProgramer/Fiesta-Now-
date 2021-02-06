@@ -56,5 +56,28 @@ namespace Api.Controllers
 
             return Ok(response);
         }
+<<<<<<< HEAD
+=======
+
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateAcademy(int id, HorarioRequestDto HorarioDto)
+        {
+            Horario horario = await _service.GetById(id);
+            var update = _mapper.Map<Horario>(HorarioDto);
+            update.Id = id;
+            update.ClaseId = horario.ClaseId;
+
+            await _service.UpdateHorario(update);
+            return Ok();
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeleteHorario(id);
+            return Ok();
+        }
+
+>>>>>>> c9166ba... changes dto
     }
 }

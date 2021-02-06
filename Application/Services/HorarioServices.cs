@@ -24,5 +24,19 @@ namespace Application.Services
         {
             return _unitOfWork.HorariosRepository.GetAll();
         }
+<<<<<<< HEAD
+=======
+
+        public async Task<Horario> GetById(int id)
+        {
+            return await _unitOfWork.HorariosRepository.GetById(id);
+        }
+
+        public async Task DeleteHorario(int id)
+        {
+            await _unitOfWork.HorariosRepository.Delete(id);
+            await _unitOfWork.SaveChangesAsync();
+        }
+>>>>>>> c9166ba... changes dto
     }
 }

@@ -56,5 +56,29 @@ namespace Api.Controllers
             var response = new ApiResponse<IEnumerable<ClaseResponseDto>>(claseDto);
             return Ok(response);
         }
+<<<<<<< HEAD
+=======
+
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> PUT(int id, ClaseRequestDto ClasDto)
+        {
+            var clase = _mapper.Map<ClaseRequestDto, Clase>(ClasDto);
+            clase.Id = id;
+            await _service.UpdateClase(clase);
+
+            var claseresponseDto = _mapper.Map<Clase, ClaseResponseDto>(clase);
+            var response = new ApiResponse<ClaseResponseDto>(claseresponseDto);
+
+            return Ok(response);
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeleteClase(id);
+            return Ok();
+        }
+
+>>>>>>> c9166ba... changes dto
     }
 }
