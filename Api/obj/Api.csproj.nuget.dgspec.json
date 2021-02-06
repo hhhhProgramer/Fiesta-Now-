@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/Api.csproj": {}
+    "/home/hhhh/Documentos/Fiesta-Now-api/Api/Api.csproj": {}
   },
   "projects": {
-    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/Api.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-api/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/Api.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-api/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/Api.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Api/Api.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -25,14 +25,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/Application.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/Application.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-api/Application/Application.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Application/Application.csproj"
               },
-              "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj"
               },
-              "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj"
               }
             }
           }
@@ -93,18 +93,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/Application.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-api/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/Application.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-api/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/Application.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Application/Application.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Application/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-api/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -118,11 +118,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj"
               },
-              "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj"
               }
             }
           }
@@ -156,18 +156,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -206,18 +206,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj",
         "projectName": "Infrestructure",
-        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/Infrestructure.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -231,8 +231,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Domain/Domain.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj"
               }
             }
           }
@@ -278,7 +278,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
         }
       }
     }

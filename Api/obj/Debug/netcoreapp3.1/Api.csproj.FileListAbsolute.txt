@@ -80,7 +80,6 @@
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
-<<<<<<< HEAD
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/bin/Debug/netcoreapp3.1/appsettings.json
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -244,7 +243,7 @@ D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuenta
 D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.pdb
 D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.genruntimeconfig.cache
 >>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
-=======
+>>>>>>> 41a9133... add server dbstring
 /home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/appsettings.json
 /home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/mono_crash.21acb2abea.0.json
@@ -326,4 +325,3 @@ D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuenta
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.dll
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.pdb
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.genruntimeconfig.cache
->>>>>>> 41a9133... add server dbstring
