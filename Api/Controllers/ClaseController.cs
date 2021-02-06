@@ -78,5 +78,13 @@ namespace Api.Controllers
 
             return Ok(response);
         }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeleteClase(id);
+            return Ok();
+        }
+
     }
 }

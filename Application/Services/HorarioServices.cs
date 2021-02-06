@@ -35,5 +35,10 @@ namespace Application.Services
             return await _unitOfWork.HorariosRepository.GetById(id);
         }
 
+        public async Task DeleteHorario(int id)
+        {
+            await _unitOfWork.HorariosRepository.Delete(id);
+            await _unitOfWork.SaveChangesAsync();
+        }
     }
 }

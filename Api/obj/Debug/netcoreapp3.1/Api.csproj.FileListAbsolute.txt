@@ -318,9 +318,9 @@ D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuenta
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.MvcApplicationPartsAssemblyInfo.cache
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/staticwebassets/Api.StaticWebAssets.Manifest.cache
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/staticwebassets/Api.StaticWebAssets.xml
-/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/scopedcss/bundle/Api.styles.css
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.RazorTargetAssemblyInfo.cache
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.csproj.CopyComplete
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.dll
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.pdb
 /home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.genruntimeconfig.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json

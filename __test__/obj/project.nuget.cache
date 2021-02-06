@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dxo1bNIiAJT/jqiNFL1ixAkAkEGTaZZA+Xhs69zQlw0IMbd4lDvWYP3o0KgDeJegVyujL2YhHPbdDlSzRvRhBg==",
+  "dgSpecHash": "BVwdnvF1e68D/5BA8RbElrfNq7nvmq+oBjYDiY+WH9xs/VwpETHqE927TJXAniIiN3XTSakqG8966fPHbo23JA==",
   "success": true,
-  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Unittesting.csproj",
+  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-api/__test__/__test__.csproj",
   "expectedPackageFiles": [
     "/home/hhhh/.nuget/packages/coverlet.collector/1.2.0/coverlet.collector.1.2.0.nupkg.sha512",
     "/home/hhhh/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
