@@ -56,8 +56,6 @@ namespace Api.Controllers
             var response = new ApiResponse<IEnumerable<ClaseResponseDto>>(claseDto);
             return Ok(response);
         }
-<<<<<<< HEAD
-=======
 
         [HttpPut("{id:int}")]
         public async Task<IActionResult> PUT(int id, ClaseRequestDto ClasDto)
@@ -79,6 +77,5 @@ namespace Api.Controllers
             return Ok();
         }
 
->>>>>>> c9166ba... changes dto
     }
 }

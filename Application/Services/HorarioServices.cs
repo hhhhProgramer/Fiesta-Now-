@@ -24,8 +24,6 @@ namespace Application.Services
         {
             return _unitOfWork.HorariosRepository.GetAll();
         }
-<<<<<<< HEAD
-=======
 
         public async Task<Horario> GetById(int id)
         {
@@ -37,6 +35,10 @@ namespace Application.Services
             await _unitOfWork.HorariosRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
         }
->>>>>>> c9166ba... changes dto
+
+        public Task UpdateHorario(Horario horarios)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

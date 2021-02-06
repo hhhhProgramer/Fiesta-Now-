@@ -50,8 +50,6 @@ namespace Application.Services
             await _unitOfWork.AcademiasRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
         }
-<<<<<<< HEAD
-=======
 
         public async Task<Clase> GetById(int id)
         {
@@ -77,6 +75,5 @@ namespace Application.Services
             }
             return valuesRepits;
         }
->>>>>>> c9166ba... changes dto
     }
 }

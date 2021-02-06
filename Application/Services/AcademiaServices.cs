@@ -26,7 +26,7 @@ namespace Application.Services
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public async Task DeleteAnimal(int id)
+        public async Task DeleteAcademy(int id)
         {
             await _unitOfWork.AcademiasRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();

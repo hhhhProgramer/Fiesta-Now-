@@ -56,8 +56,6 @@ namespace Api.Controllers
 
             return Ok(response);
         }
-<<<<<<< HEAD
-=======
 
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateAcademy(int id, HorarioRequestDto HorarioDto)
@@ -78,6 +76,5 @@ namespace Api.Controllers
             return Ok();
         }
 
->>>>>>> c9166ba... changes dto
     }
 }

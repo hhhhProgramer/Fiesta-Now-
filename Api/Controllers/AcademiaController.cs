@@ -57,5 +57,33 @@ namespace Api.Controllers
             var response = new ApiResponse<AcademiaResponseDto>(animalsDto);
             return Ok(response);
         }
+
+        [HttpGet("Accout/{id:int}")]
+        public IActionResult AccoutGet(int id)
+        {
+            var Academias = _service.GetAcademias().FirstOrDefault(x => x.CuentaID == id);
+            var animalsDto = _mapper.Map<Academia, AcademiaResponseDto>(Academias);
+
+            var response = new ApiResponse<AcademiaResponseDto>(animalsDto);
+            return Ok(response);
+        }
+
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateAcademy(int id, AcademiaRequestDto AcademiaDto)
+        {
+            var update = _mapper.Map<Academia>(AcademiaDto);
+            update.Id = id;
+            await _service.UpdateAcademia(update);
+            return Ok();
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> DeleteAcademy(int id)
+        {
+            await _service.DeleteAcademy(id);
+            return Ok();
+        }
+        
+
     }
 }
