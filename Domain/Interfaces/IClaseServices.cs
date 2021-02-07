@@ -10,5 +10,6 @@ namespace Domain.Interfaces
         Task UpdateClase(Clase horario);
         Task AddClase(Clase horario);
         Task DeleteClase(int id);
+        Task<Clase> GetById(int id);
     }
 }

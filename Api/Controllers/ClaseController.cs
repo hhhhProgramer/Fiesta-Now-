@@ -49,11 +49,11 @@ namespace Api.Controllers
         }
 
          [HttpGet("{id:int}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            var clase = _service.GetClases().Where(x => x.AcademiaId == id);
-            var claseDto = _mapper.Map<IEnumerable<Clase>, IEnumerable<ClaseResponseDto>>(clase);
-            var response = new ApiResponse<IEnumerable<ClaseResponseDto>>(claseDto);
+            Clase clase = await _service.GetById(id);
+            var claseDto = _mapper.Map<Clase, ClaseResponseDto>(clase);
+            var response = new ApiResponse<ClaseResponseDto>(claseDto);
             return Ok(response);
         }
 
@@ -66,7 +66,6 @@ namespace Api.Controllers
             {
                 item.Horarios = $"{this.Request.Scheme}://{this.Request.Host}{this.Request.PathBase}/api/horario/{item.id}";
             }
-
             var response = new ApiResponse<IEnumerable<ClaseResponseDto>>(claseDto);
             return Ok(response);
         }
