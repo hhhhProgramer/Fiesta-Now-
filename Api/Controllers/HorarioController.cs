@@ -45,6 +45,16 @@ namespace Api.Controllers
             return Ok(response);
         }
 
+        [HttpGet("horario/{id:int}")]
+        public async Task<IActionResult> GetHorario(int id)
+        {
+            Horario Cuentas = await _service.GetById(id);
+            var animalsDto = _mapper.Map<Horario, HorarioResponseDto>(Cuentas);
+
+            var response = new ApiResponse<HorarioResponseDto>(animalsDto);
+            return Ok(response);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post(HorarioRequestDto HorarioDto)
         {

@@ -83,7 +83,7 @@ namespace Api.Controllers
             await _service.DeleteAcademy(id);
             return Ok();
         }
-        
+
 
     }
 }
