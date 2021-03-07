@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9m5+hssHBDb96y9z91WRvZiHC3ioDk+o2rBd1U5aXpuEefJsMjOmFDJsjaZEWgA4xX5H4opUswqM7HbPTRG+cw==",
+  "dgSpecHash": "fGYzuzFySn7mBVcGCjeCO8xxZi0erGbrezPiFCmdXXIBvz9bPJrRGdSgS/rU99T1sLukUeZY3cNFaUwACon8sg==",
   "success": true,
-  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj",
+  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/Infrestructure/Infrestructure.csproj",
   "expectedPackageFiles": [
     "/home/hhhh/.nuget/packages/fluentvalidation/9.2.0/fluentvalidation.9.2.0.nupkg.sha512",
     "/home/hhhh/.nuget/packages/fluentvalidation.aspnetcore/9.2.0/fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",

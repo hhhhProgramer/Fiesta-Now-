@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RtDdo+H1VxwdvpzLs4CLAIl/mKlt8j1EuC61pvdX1YU+a3A3ePt1vinUIDwhgHrntTQzoQWAOLodXJPoMTDIuQ==",
+  "dgSpecHash": "cOc4+Mo6BJI3TNDoakvuiLdsB0FMhSllxXfE/PtISDhorgzldHRhWZM75yLnzrDw3c3KIz8sGgWKqPM9G1Zs1A==",
   "success": true,
-  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
+  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

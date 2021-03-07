@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
+      "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
+      "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj",
       "packagesPath": "/home/hhhh/.nuget/packages/",
-      "outputPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/obj/",
+      "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/hhhh/.dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
       }
     }
   }

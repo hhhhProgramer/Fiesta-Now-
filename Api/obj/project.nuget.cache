@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LsKWk/ZfkAqW+czI8DPvGd3RxvVt15iMj+DTB5SyQc018hXdYijiviXhJelQ/+iYfRkXVQQ9Sj3kOWSQoXM0lw==",
+  "dgSpecHash": "ssn+xmqb3hMK+svkjjcl26lLB2+WWbnx/KSHj5v0bBkifLDksmq1R9/usms2GDorDN/ZfK34X2aaU0fTz0SlfA==",
   "success": true,
-  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-api/Api/Api.csproj",
+  "projectFilePath": "/home/hhhh/Documentos/Fiesta-Now-/Api/Api.csproj",
   "expectedPackageFiles": [
     "/home/hhhh/.nuget/packages/automapper/10.1.0/automapper.10.1.0.nupkg.sha512",
     "/home/hhhh/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj": {}
+    "/home/hhhh/Documentos/Fiesta-Now-/Infrestructure/Infrestructure.csproj": {}
   },
   "projects": {
-    "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -50,18 +50,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/hhhh/.dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj": {
+    "/home/hhhh/Documentos/Fiesta-Now-/Infrestructure/Infrestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/Infrestructure/Infrestructure.csproj",
         "projectName": "Infrestructure",
-        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/Infrestructure.csproj",
+        "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/Infrestructure/Infrestructure.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/",
+        "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/Infrestructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj": {
-                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-api/Domain/Domain.csproj"
+              "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj"
               }
             }
           }
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/hhhh/.dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
         }
       }
     }
