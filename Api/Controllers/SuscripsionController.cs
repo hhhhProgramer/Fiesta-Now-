@@ -50,6 +50,16 @@ namespace Api.Controllers
             return Ok(suscripciones);
         }
 
+        [HttpGet("Academia/{id:int}")]
+        public IActionResult GetByAcademy(int id)
+        {
+            var suscripciones = _claseAcademiaService.GetAll().Where(x => x.ClaseID == id );
+            var suscripcionesDto = _mapper.Map<IEnumerable<Clase_Suscripciones>, IEnumerable<SuscripcionResponseDto>>(suscripciones);
+
+            var response = new ApiResponse<IEnumerable<SuscripcionResponseDto>>(suscripcionesDto);
+            return Ok(suscripciones);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post(SuscripcionRequestDto suscripcionDto)
         {
